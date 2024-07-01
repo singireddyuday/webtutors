@@ -1,0 +1,60 @@
+.menu-btn-mobile_menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .menu-btn-mobile_menu:hover {
+    background-color: #444;
+  }
+  
+  .menu-btn-mobile_menu i {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  .references_bigcard {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .references_bigcard div {
+    margin-bottom: 20px;
+  }
+  
+  .bg-pink {
+    background-color: #ffc0cb;
+    padding: 20px;
+  }
+  
+  .bg-yellow {
+    background-color: #ffff00;
+    padding: 20px;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .bg-black {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bg-black:hover {
+    background-color: #444;
+  }

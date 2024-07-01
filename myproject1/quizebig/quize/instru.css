@@ -1,0 +1,97 @@
+/* instru.css */
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background: url(./img.png) no-repeat center center fixed;
+    background-size: cover;
+    color: #000;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: flex-start; /* Align to the top */
+    min-height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #0b58a7;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px; /* Space between navbar and box */
+}
+
+.box {
+    width: 500px;
+    padding: 20px;
+    min-height: 100px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    text-align: left; /* Align text content left */
+}
+
+.box h1 {
+    text-align: center; /* Center the heading */
+}
+
+#rules-list {
+    padding-left: 20px; /* Indent rules list */
+}
+
+#rules-list li {
+    margin-bottom: 10px; /* Space between each rule */
+}
+
+.checkbox-container {
+    margin-bottom: 20px;
+    text-align: center; /* Center checkbox */
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center; /* Center buttons */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0b58a7; /* Default button color */
+    color: #fff; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button.blue {
+    background-color: blue; /* Blue button color */
+}
+
+.button.blue:hover {
+    background-color: darkblue; /* Darker blue on hover */
+}
+
+.button.blue:active {
+    background-color: #004d99; /* Slightly darker blue when clicked */
+}

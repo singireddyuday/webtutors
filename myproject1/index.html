@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!------font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!----------------------google font family freckle face------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <div class="w3schools-logo">
+                <img src="img.png" />
+            </div>
+        </div>
+        <div class="header-left">
+            <a href="#" class="menu-btn">
+                <!-- <div class="w3schools-logo">
+                    <img src="img.png" />
+                </div> -->
+            </a>
+            <div href="#Tutorials" class="menu-btn" id="Tutorials-btn">
+                Tutorials
+                <i class="fa-solid fa-caret-down"></i>
+                <div class="menu"></div>
+            </div>
+            <a href="./quizebig/indexq.html" class="menu-btn" id="exercises-btn">
+                Exercises
+                <i class="fa-solid fa-caret-down"></i>
+            </a>            
+            <a href="./page/videos/vidio.html" class="menu-btn" id="video-btn">
+                videos
+            </a>
+            <!---------mobile view  menu------------->
+            <div class="menu-btn" id="menu-btn-mobile">
+                Menu
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="toggleLightDark btn">
+                <i class="fa-solid fa-circle-half-stroke"></i>
+            </div>
+            <div class="toggleTranslate">
+                <i class="fa-solid fa-earth-asia"></i>
+            </div>
+            <div class="toggle_search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <!-- <a href="#upgrade" class="btn btn-link bg-black" id="upgrade-btn">Upgrade</a>
+            <a href="#GetCertified" class="btn btn-link bg-pink" id="getcertified">GetCertified</a>
+            <a href="#FreeWebsite" class="btn btn-link bg-yellow" id="freewebsite">FreeWebsite</a> -->
+            <a href="#login" class="btn btn-link bg-green" id="login-btn">Login</a>
+        </div> 
+    </header>
+    <!----------------------- mobile-menu-bar -->
+    <div class="mobile-menu-container" id="mobile-menu-nav">
+        <div class="mobile-menu-close-btn">
+            <button id="mobile-nav-close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <ul>
+            <div href="#Tutorials" class="menu-btn-mobile_menu " id="tutorial_menulink_mobile">
+                Tutorials
+                <i class="fa-solid fa-caret-down"></i>
+
+                <div class="nested-navigation-container_content_Mobile  mobile_menuActive_tutorial"
+                    id="tutorial_menu_mobile">
+                    <h1>Tutorials</h1>
+                    <h2>html css</h2>
+                    <a href="#">ndcvjkhhbdhbvhbv</a>
+                </div>
+            </div>
+            <div href="#exercises" class="menu-btn-mobile_menu">
+                Exercises
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <!-- <a href="#getcertified" class="menu-btn-mobile_menu">
+                GetCertified
+            </a>
+            <a href="#upgrade" class="menu-btn-mobile_menu">
+                Upgrade
+            </a>
+            <a href="#spaces" class="menu-btn-mobile_menu">
+                Spaces
+            </a> -->
+            <a href="#video" class="menu-btn-mobile_menu" style="margin-left: 0px;">
+                videos
+            </a>
+            <!-- <a href="#shop" class="menu-btn-mobile_menu">
+                Shop
+            </a> -->
+        </ul>
+    </div>
+
+    <!----------- nested navigation bar --------------------->
+    <div class="nested-navigation-container nested-navigation_hidden" id="nested-navigation-container_id">
+        <div class="nested-navigition_container_close-btn" id="nested-navigition_container_close-Btn">
+            <button><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="nested-navigation-container_content" id="nested-navigation-container_content">
+            <!--------------------render the menu of all  -->
+        </div>
+    </div>
+    </div>
+
+    <!--------------------------------------------------------------------------------------------------------------------------------------->
+    <section class="section_heading">
+        <div class="section_container">
+            <h1>Learn to Code</h1>
+            <p>With the world's largest web developer site.</p>
+            <div class="section_heading_search">
+                <input type="text" placeholder="Search our tutorial,e.g.HTML">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a href="https://www.w3schools.com/where_to_start.asp">Not Sure Where To Begin?</a>
+        </div>
+        <svg style="background-color:#D9EEE1;" width="100%" height="70" viewBox="0 0 100 100"
+            preserveAspectRatio="none">
+            <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"></path>
+        </svg>
+    </section>
+
+    <section class="section_html">
+        <div class="section_left">
+            <h1>HTML</h1>
+            <p>The language for building web pages</p>
+            <a href="./page/htmltutorial/subnav/HTMLMAINPage.html" class="bg-green">Learn HTML</a>
+            <a href="#" class="bg-yellow">Video Tutorial</a>
+            <a href="#" class="bg-pink">Exercises</a>
+        </div>
+    </section>
+
+    <section class="section_css">
+        <div class="section_left">
+            <h1>CSS</h1>
+            <p>The language for styling web pages</p>
+            <a href="#" class="bg-green">Learn CSS</a>
+            <a href="#" class="bg-white">Video Tutorial</a>
+            <a href="#" class="bg-pink">Exercises</a>
+        </div>
+    </section>
+
+    <section class="section_javascript">
+        <div class="section_left">
+            <h1>JavaScript</h1>
+            <p>The language for programming web pages</p>
+            <a href="#" class="bg-green">Learn JavaScript</a>
+            <a href="#" class="bg-yellow">Video Tutorial</a>
+            <a href="#"class="bg-pink">Exercises</a>
+        </div>
+    </section>
+
+    <section class="section_python">
+        <div class="section_left">
+            <h1>Python</h1>
+            <p>A popular programming language</p>
+            <a href="#" class="bg-green">Learn Python</a>
+            <a href="#" class="bg-yellow">Video Tutorial</a>
+            <a href="#" class="bg-pink">Get Certified</a>
+        </div>
+    </section>
+
+    <!----------------------------pro user------------------------------------------------------->
+    <section class="bg-black becomeprouser">
+        <div class="becomeapro_container">
+            <h1>Become a Plus User</h1>
+            <p class="becomepro_unlock">And unlock powerful features:</p>
+            <div class="becomeFeature_list">
+                <div class="becomeFeature_item">
+                    <img src="https://www.w3schools.com/spaces/files/check3.db67d31e.svg">
+                    <p>Browse W3Schools without ads</p>
+                </div>
+                <div class="becomeFeature_item">
+                    <img src="https://www.w3schools.com/spaces/files/check3.db67d31e.svg">
+                    <p>Build and host Websites</p>
+                </div>
+                <div class="becomeFeature_item">
+                    <img src="https://www.w3schools.com/spaces/files/check3.db67d31e.svg">
+                    <p>Get extra credits</p>
+                </div>
+                <div class="becomeFeature_item">
+                    <img src="https://www.w3schools.com/spaces/files/check3.db67d31e.svg">
+                    <p>Priority support</p>
+                </div>
+            </div>
+            <button class="bg-green btn"><a href="https://www.w3schools.com/plus/index.php">Learn More</a></button>
+        </div>
+    </section>
+    <!----------------------------colour_Section------------------------------------------------------->
+    <div class="colorsection">
+        <div class="colorsection_container">
+            <h1>Color Picker</h1>
+            <p>Webtutor' famous color picker:</p>
+            <a href="#">
+                <img src="https://www.w3schools.com/images/colorpicker.png" />
+            </a>
+        </div>
+    </div>
+    <!----------------------------web_templet------------------------------------------------------->
+    <div class="web_template">
+        <div class="web_template_container">
+            <h1>Web Templates</h1>
+            <p>Browse our selection of free responsive HTML Templates</p>
+            <a href="https://www.w3schools.com/w3css/w3css_templates.asp">
+                <img src="https://www.w3schools.com/w3css_templates.jpg" />
+            </a>
+            <a href="https://www.w3schools.com/w3css/w3css_templates.asp" class="web_template_link bg-black">Browse
+                Templates</a>
+        </div>
+    </div>
+    <!----------------------------footer section------------------------------------------------------->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="forum_about">
+                <a href="">FORUM</a>
+                <a href="">ABOUT</a>
+                <a href="">CLASSROOM</a>
+            </div>
+        </div>
+        <div class="socialMedia">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+        <div class="footer_des">
+            <p>W3Schools is optimized for learning and training.
+            Examples might be simplified to improve reading and 
+            learning. Tutorials, references, and examples are 
+            constantly reviewed to avoid errors, but we cannot 
+            warrant full correctness of all content. While using 
+            W3Schools, you agree to have read and accepted our 
+            <a href="https://www.w3schools.com/about/about_copyright.asp">terms of use</a>,
+            <a href="https://www.w3schools.com/about/about_privacy.asp">
+                cookie and privacy policy</a>
+            </p>
+            <p><a href="https://www.w3schools.com/about/about_copyright.asp">Copyright 2024 </a>
+                by Refsnes Data. All Rights Reserved. 
+               <a href="https://www.w3schools.com/w3css/default.asp"> Webtutor is Powered by Webtutor.CSS. </a>
+            </p>
+        </div>
+      </footer>
+    <script src="scripts.js" type="module"></script>
+</body>
+
+</html>
+

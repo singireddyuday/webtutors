@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/HTMLMAINPAGE.css">
+        <!------font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper_html_home">
+        <main class="wrapper_html_content_home">
+            <section class="wrapper_content_home_heading_section">
+                <h1>HTML Attributes</h1>
+                <div class="html_btn_container">
+                    <a href="./elements.html" class="bg-green">
+                        <i class="fa-solid fa-angle-left"></i>
+                        Home
+                    </a>
+                    <a href="./heading.html" class="bg-green">
+                        Next
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a> 
+                </div>
+            </section>
+
+            <section class="attribute">
+                <p>We have seen few HTML tags and their usage like heading tags<code>&lt;h1&gt;</code>,<code>&lt;h2&gt;</code>, paragraph tag <code>&lt;p&gt;</code>and other tags. We used them so far in their simplest form, but most of the HTML tags can also have attributes, which are extra bits of information.</p>
+                <p>An attribute is used to define the characteristics of an HTML element and is placed inside the element's opening tag. All attributes are made up of two parts: a name and a value −</p>
+                <div class="box">
+                    <ul>
+                        <li>The <strong>name</strong>is the property you want to set. For example, the paragraph<code>&lt;p&gt;</code>element in the example carries an attribute whose name is align, which you can use to indicate the alignment of paragraph on the page.</li>
+                        <li>The <strong>value</strong> is what you want the value of the property to be set and always put within quotations. The below example shows three possible values of align attribute: <strong>left, center</strong> and<strong>right.</strong></li>
+                    </ul>
+                </div>
+                <p>Attribute names and attribute values are case-insensitive. However, the World Wide Web Consortium (W3C) recommends lowercase attributes/attribute values in their HTML recommendation.</p>
+                <h1>Example</h1>
+                <!------copy------>
+                <p>On executing the above example, we can observe the sentences that are aligned to the left, center and right of the page.</p>
+                <h1>Core Attributes</h1>
+                <p>The four core attributes that can be used on the majority of HTML elements (although not all) are −</p>
+                <h1>The Id Attribute</h1>
+                <p>The <strong>id</strong> attribute of an HTML tag can be used to uniquely identify any element within an HTML page. There are two primary reasons that you might want to use an id attribute on an element −</p>
+                <div class="box">
+                    <ul>
+                        <li>If an element carries an id attribute as a unique identifier, it is possible to identify just that element and its content.</li>
+                        <li>If you have two elements of the same name within a Web page (or style sheet), you can use the id attribute to distinguish between elements that have the same name.</li>
+                    </ul>
+                </div>
+                <p>We are using the id attribute to distinguish between two paragraph elements −</p>
+                <h1>Example</h1>
+                <!--------copy------->
+                <h1>The title Attribute</h1>
+                <p>The <strong>title</strong> attribute gives a suggested title for the element. They syntax for the <strong>title</strong> attribute is similar as explained for <strong>id</strong> attribute −</p>
+                <p>The behavior of this attribute will depend upon the element that carries it, although it is often displayed as a tooltip when cursor comes over the element or while the element is loading.</p>
+                <h1>Example</h1>
+                <!------copy--------->
+                <p>On executing the above example, it will display the heading <strong>"Titled Heading Tag Example"</strong> if you bring your cursor over it you will see that whatever title you used in your code is coming out as a tooltip of the cursor.</p>
+                <h1>The class Attribute</h1>  
+                <p>The<strong>class</strong>attribute is used to associate an element with a style sheet, and specifies the class of element. You will learn more about the use of the class attribute when you will learn Cascading Style Sheet (CSS). So for now you can avoid it.</p>
+                <p>The value of the attribute may also be a space-separated list of class names. For example −</p>
+                <h1>Example</h1>
+                <!-------copy--------->
+                <h1>The style Attribute</h1>
+                <p>The style attribute allows you to specify Cascading Style Sheet (CSS) rules within the element.</p>
+                <h1>Example</h1>
+                <!-------copy--------->
+                <p>On executing the above example, it will display the text " Welcome to Tutorialspoint..." in the "Arial" font and with red color.</p>
+                <p>At this point of time, we are not learning CSS, so just let's proceed without bothering much about CSS. Here, you need to understand what are HTML attributes and how they can be used while formatting content.</p>
+                <h1>Internationalization Attributes</h1>
+                <p>There are three internationalization attributes, which are available for most (although not all) XHTML elements.</p>
+                <h1>The dir Attribute</h1>
+                <p>The dir attribute allows you to indicate to the browser about the direction in which the text should flow. The dir attribute can take one of two values, as you can see in the table that follows −</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Value & Meaning</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><strong>ltr</strong><br>Left to right (the default value)</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><strong>rtl</strong><br>Right to left (for languages such as Hebrew or Arabic that are read right to left)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h1>Example</h1>
+                <!-------copy--------->
+                <p>If you click on <strong>Edit & Run</strong>, you can observe the text aligned to right.</p>
+                <p>When <strong>dir</strong> attribute is used within the <html> tag, it determines how text will be presented within the entire document. When used within another tag, it controls the text's direction for just the content of that tag.</p>
+                <h1>The lang Attribute</h1>
+                <p>The lang attribute allows you to indicate the main language used in a document, but this attribute was kept in HTML only for backwards compatibility with earlier versions of HTML. This attribute has been replaced by the xml:lang attribute in new XHTML documents.</p>
+                <p>The values of the lang attribute are ISO-639 standard two-character language codes. Check <strong style="color: green;">HTML Language Codes: ISO 639</strong> for a complete list of language codes.</p>
+                <h1>Example</h1>
+                <!--------copy------->
+                <div class="note">
+                    <strong>Note:</strong>The xml:lang attribute is the XHTML replacement for the lang attribute. The value of thexml:lang attribute should be an ISO-639 country code as mentioned in previous section.
+                </div>
+                <h1>Generic Attributes</h1>
+                <p>Here's a table of some other attributes that are readily usable with many of the HTML tags.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Attribute</th>
+                            <th>Options</th>
+                            <th>Function</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong style="color:green;">align</strong></td>
+                            <td>right, left, center</td>
+                            <td>Horizontally aligns tags</td>
+                        </tr>
+                        <tr>
+                            <td><strong style="color:green;">bgcolor</strong></td>
+                            <td>numeric, hexidecimal, RGB values</td>
+                            <td>Places a background color behind an element</td>
+                        </tr>
+                        <tr>
+                            <td><strong style="color:green;">id</strong></td>
+                            <td>User Defined</td>
+                            <td>Names an element for use with Cascading Style Sheets.</td>
+                        </tr>
+                        <tr>
+                            <td><strong style="color:green;">class</strong></td>
+                            <td>User Defined</td>
+                            <td>Classifies an element for use with Cascading Style Sheets.</td>
+                        </tr>
+                        <tr>
+                            <td><strong style="color:green;">width</strong></td>
+                            <td>Numeric Value</td>
+                            <td>Specifies the width of tables, images, or table cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong style="color:green;">height</strong></td>
+                            <td>Numeric Value</td>
+                            <td>Specifies the height of tables, images, or table cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong style="color:green;">title</strong></td>
+                            <td>User Defined</td>
+                            <td>A text to display in a tool tip.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>We will see related examples as we will proceed to study other HTML tags. For a complete list of HTML Tags and related attributes please check reference to <strong style="color: green;">HTML Tags List.</strong></p>
+            </section>
+        </main>
+    
+        <!-------advertisement-------->
+        <aside class="container_advertisement">
+            Advertisement
+        </aside>
+    </div>
+</body>
+</html>

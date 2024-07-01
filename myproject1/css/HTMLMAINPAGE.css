@@ -1,0 +1,318 @@
+*{
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.homepage h1{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.homepage hr{
+    font-weight: 500;
+}
+.homepage p{
+    font-size: 18px;
+    padding: 18px 0px;
+    line-height: 1.8;
+}
+
+/********************home***************************/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+.box {
+    background-color: #ffefe0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a {
+    color: #3E9F6C;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code {
+    background-color:  #ffefe0;
+    color: black;
+    font-weight: 600;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2;}
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  /*********************introduction***************************************/
+.introduction h1{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.introduction hr{
+    font-weight: 500;
+}
+.introduction p{
+    font-size: 18px;
+    padding: 18px 0px;
+    line-height: 1.8;
+}
+.introduction h1 {
+    text-align: center;
+    color: #333;
+}
+  /*********************Table***************************************/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+thead{
+    color: black;
+    font-size: 20px;
+}
+thead{
+    background-color: rgb(193, 221, 137);
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+  /*********************Editor***************************************/
+.Editor h1{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.Editor hr{
+    font-weight: 500;
+}
+.Editor p{
+    font-size: 18px;
+    padding: 18px 0px;
+    line-height: 1.8;
+}
+.Editor h1 {
+    text-align: center;
+    color: #333;
+}
+/*********************basics***************************************/
+.basics h1{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.basics hr{
+    font-weight: 500;
+}
+.basics p{
+    font-size: 18px;
+    padding: 18px 0px;
+    line-height: 1.8;
+}
+.basics h1 {
+    text-align: center;
+    color: #333;
+}
+/***************************Elements*********************************/
+.elements h1{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.elements hr{
+    font-weight: 500;
+}
+.elements p{
+    font-size: 18px;
+    padding: 18px 0px;
+    line-height: 1.8;
+}
+.elements h1 {
+    text-align: center;
+    color: #333;
+}
+/*****************note********************/
+
+.note {
+    background-color: #FFF9DB;
+    border-left: 5px solid #FFD700;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.note strong {
+    font-weight: bold;
+}
+
+.note code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+/*****************attributes********************/
+.attribute h1{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.attribute hr{
+    font-weight: 500;
+}
+.attribute p{
+    font-size: 18px;
+    padding: 18px 0px;
+    line-height: 1.8;
+}
+.attribute h1 {
+    text-align: center;
+    color: #333;
+}
+/*****************heading********************/
+.heading h1{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.heading hr{
+    font-weight: 500;
+}
+.heading p{
+    font-size: 18px;
+    padding: 18px 0px;
+    line-height: 1.8;
+}
+.heading h1 {
+    text-align: center;
+    color: #333;
+}
+/*****************click**board******************//* styles.css */
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+body{
+  min-height: 100vh;
+  width: 100%;
+  background: #fdfcfc;
+}
+.text-boxes{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 30px;
+  margin-bottom: 60px;
+}
+.text-boxes .text-box{
+  height: 380px;
+  max-width: 660px;
+  width: 100%;
+  margin: 55px 0;
+}
+.text-boxes .text-box .topic{
+  font-size: 18px;
+  font-weight: 600;
+  color: green;
+  margin: 4px;
+}
+.text-boxes .text-box textarea{
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  outline: none;
+  border: 1px solid green;
+  border-radius: 8px;
+  background: #e7edfe;
+}
+.text-box textarea::-webkit-scrollbar{
+  display: none;
+}
+.text-boxes .text-box button{
+  height: 45px;
+  width: 155px;
+  color: #fff;
+  background: green;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 8px 0;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.text-boxes .text-box button:hover{
+  background: green;
+}
+@media (max-width: 400px) {
+  .text-boxes .text-box button{
+    width: 100%;
+  }
+}
+

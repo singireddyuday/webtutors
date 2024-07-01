@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial</title>
+    <link rel="stylesheet" href="../../../css/horizontalnav.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <!------font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!----------------------google font family freckle face------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="#" class="menu-btn">
+                <div class="w3schools-logo">
+                    <img src="../../../img.png" />
+                </div>
+            </a>
+            <div href="#Tutorials" class="menu-btn" id="Tutorials-btn">
+                Tutorials
+                <i class="fa-solid fa-caret-down"></i>
+                <div class="menu"></div>
+            </div>
+            <!-- <div href="#references" class="menu-btn" id="references-btn">
+                References
+                <i class="fa-solid fa-caret-down"></i>
+            </div> -->
+            <a href="./../../../quizebig/indexq.html" class="menu-btn" id="exercises-btn">
+                Exercises
+                <i class="fa-solid fa-caret-down"></i>
+            </a>
+            <a href="./../../videos/vidio.html" class="menu-btn" id="video-btn">
+                videos
+            </a>
+            <!---------mobile view  menu------------->
+            <div class="menu-btn" id="menu-btn-mobile">
+                Menu
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+        <div class="header-right">
+            <!-- <a href="#upgrade" class="btn btn-link bg-black" id="upgrade-btn">Upgrade</a>
+            <a href="#GetCertified" class="btn btn-link bg-pink" id="getcertified">GetCertified</a>
+            <a href="#FreeWebsite" class="btn btn-link bg-yellow" id="freewebsite">FreeWebsite</a> -->
+            <a href="#login" class="btn btn-link bg-green" id="login-btn">Login</a>
+        </div>
+    </header>
+    <!----------------------- mobile-menu-bar -->
+    <div class="mobile-menu-container" id="mobile-menu-nav">
+        <div class="mobile-menu-close-btn">
+            <button id="mobile-nav-close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <ul>
+            <div href="#Tutorials" class="menu-btn-mobile_menu " id="tutorial_menulink_mobile">
+                Tutorials
+                <i class="fa-solid fa-caret-down"></i>
+
+                <div class="nested-navigation-container_content_Mobile  mobile_menuActive_tutorial"
+                    id="tutorial_menu_mobile">
+                    <h1>Tutorials</h1>
+                    <h2>html css</h2>
+                    <a href="#">ndcvjkhhbdhbvhbv</a>
+
+                </div>
+            </div>
+            <!-- <div href="#references" class="menu-btn-mobile_menu">
+                References
+                <i class="fa-solid fa-caret-down"></i>
+            </div> -->
+            <a href="./../../../quizebig/indexq.html" class="menu-btn-mobile_menu">
+                Exercises
+                <i class="fa-solid fa-caret-down"></i>
+            </a>
+            <!-- <a href="#getcertified" class="menu-btn-mobile_menu">
+                GetCertified
+            </a> -->
+            <!-- <a href="#upgrade" class="menu-btn-mobile_menu">
+                Upgrade
+            </a> -->
+            <!-- <a href="#spaces" class="menu-btn-mobile_menu">
+                Spaces
+            </a> -->
+            <a href="./../../videos/vidio.html" class="menu-btn-mobile_menu">
+                videos
+            </a>
+            <!-- <a href="#shop" class="menu-btn-mobile_menu">
+                Shop
+            </a> -->
+        </ul>
+    </div>
+
+    <!----------- nested navigation bar --------------------->
+    <div class="nested-navigation-container nested-navigation_hidden" id="nested-navigation-container_id">
+        <div class="nested-navigition_container_close-btn" id="nested-navigition_container_close-Btn">
+            <button><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="nested-navigation-container_content" id="nested-navigation-container_content">
+            <!--------------------render the menu of all  -->
+        </div>
+    </div>
+    </div>
+
+    <!---------------------Horizontal navbar--------------------------------------->
+    <div class="horizontal_wrapper">
+        <div class="horizontal_nav_left"> 
+                <div class="horizontalnav_Btn" id="openSidebarMenuID">
+                    <i class="fa-solid fa-house-chimney"></i>
+                </div>
+                <a href="./home.html" class="horizontal_nav_item">HTML</a>
+                <a href="#" class="horizontal_nav_item">CSS</a>
+                <a href="#" class="horizontal_nav_item">JavaScript</a>
+                <a href="#" class="horizontal_nav_item">SQL</a>
+                <a href="#" class="horizontal_nav_item">PYTHON</a>
+                <a href="#" class="horizontal_nav_item">JAVA</a>
+                <a href="#" class="horizontal_nav_item">PHP</a>
+                <a href="#" class="horizontal_nav_item">BOOTSTRAP</a>
+                <a href="#" class="horizontal_nav_item">HowTo</a>
+                <a href="#" class="horizontal_nav_item">W3.CSS</a>
+                <a href="#" class="horizontal_nav_item">C</a>
+                <a href="#" class="horizontal_nav_item">C++</a>
+        </div>
+        <div class="horizontal_nav_right">
+            <div class="toggleLightDark btn">
+                <i class="fa-solid fa-circle-half-stroke"></i>
+            </div>
+            <div class="toggleTranslate">
+                <i class="fa-solid fa-earth-asia"></i>
+            </div>
+            <div class="toggle_search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </div>
+
+    <!--------------section body html tutorial----------------------------->
+    <div class="wrapper_body_html">
+        <aside class="wrapper_body_left"  id="sidebarNavigationHtmlID">
+            <div class="wrapper_body_left_heading">HTML Tutorial</div>
+            <a href="../subnav/home.html" class="horizontal_menu_item_aside"  target="dispalycontent">HTML-HOME</a>
+            <a href="../subnav/introduction.html" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Introduction</a>
+            <a href="../subnav/editor.html" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Editor</a>
+            <a href="../subnav/Basic Tags.html" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Basic Tags</a>
+            <a href="../subnav/elements.html" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Elements</a>
+            <a href="../subnav/attributes.html" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Attributes</a>
+            <a href="../subnav/heading.html" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Headings</a>
+            <a href="../subnav/pagragraph.html" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Paragraphs</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Fonts</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Blocks</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Style Sheet</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Formatting</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Quotations</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Comments</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Colors</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Images</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Image Map</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Iframes</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Phrase Elements</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Meta Tags</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Classes</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-IDs</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Backgrounds</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Tables(Headers&Caption)</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Table Styling</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Table Colgroup</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Nested Tables</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-List</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Unordered Lists</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Ordered Lists</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Definition Lists</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Text Links</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Image Links</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Email Links</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Color Names</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-RGB</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-HEX</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-HSL</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Forms</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Forms Attributes</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Forms Control</a>
+            <a href="#" class="horizontal_menu_item_aside" target="dispalycontent">HTML-Input Attributes</a>
+        </aside>
+        <section class="wrapper_body_right">
+            <iframe src="./subnav/home.html" name="dispalycontent" class="iframe_content_display">
+                
+            </iframe>
+        </section>
+    </div>
+
+    <script>
+        let sidebar = document.getElementById("sidebarNavigationHtmlID");
+        let openSidebarMenu = document.getElementById("openSidebarMenuID");
+        let open = false;
+      
+        openSidebarMenu.addEventListener("click", () => {
+          open = !open;
+          if (open) {
+            sidebar.classList.add("sidebarDisplay")
+          } else {
+            sidebar.classList.remove("sidebarDisplay")
+          }
+        });
+      </script>
+
+      <script src="./../../../scripts.js" type="module"></script>
+
+</body>
+</html>

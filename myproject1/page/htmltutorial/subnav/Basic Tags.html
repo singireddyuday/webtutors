@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/HTMLMAINPAGE.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="wrapper_html_home">
+        <main class="wrapper_html_content_home">
+            <section class="wrapper_content_home_heading_section">
+                <h1>HTML Basic</h1>
+                <div class="html_btn_container">
+                    <a href="./Basic Tags.html" class="bg-green">
+                        <i class="fa-solid fa-angle-left"></i>
+                        Home
+                    </a>
+                    <a href="./elements.html" class="bg-green">
+                        Next
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </div>
+            </section>
+            <section class="basics">
+                <p>HTML tags are the fundamental elements of HTML used for defining the structure of the document. These
+                    are letters or words enclosed by angle brackets (< and>).</p>
+                <p>Usually, most of the HTML tags contains an Opening and a closing tag. Each tag has a different
+                    meaning and the browser reads the tags and displays the contents enclosed by it accordingly.</p>
+                <p>For example, if we wrap any text with in the paragraph
+                    (<code>&lt;p&gt;</code><code>&lt;/p&gt;</code>)tag browser displays it as a separate paragraph. In
+                    this tutorial we will discuss all the basic tags in HTML.</p>
+                <h1>Heading Tags</h1>
+                <p>Any document starts with a heading. You can use different sizes for your headings. HTML also has six
+                    levels of headings, which use the elements
+                    <code>&lt;h1&gt;</code>,<code>&lt;h2&gt;</code>,<code>&lt;h3&gt;</code>,<code>&lt;h4&gt;</code>,<code>&lt;h5&gt;</code>,and
+                    <code>&lt;h6&gt;</code>. While displaying any heading, browser adds one line before and one line
+                    after that heading.
+                </p>
+                <h1>Example</h1>
+                <p>Following HTML example demonstrates various levels of headings −</p>
+                <!-- copy clip -->
+                <div class="text-boxes">
+                    <div class="text-box HTMLBox">
+                        <div class="topic">HTML Code:</div>
+                        <textarea id="HTMLBox" readonly>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Heading Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;This is heading 1&lt;/h1&gt;
+&lt;h2&gt;This is heading 2&lt;/h2&gt;
+&lt;h3&gt;This is heading 3&lt;/h3&gt;
+&lt;h4&gt;This is heading 4&lt;/h4&gt;
+&lt;h5&gt;This is heading 5&lt;/h5&gt;
+&lt;h6&gt;This is heading 6&lt;/h6&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                        </textarea>
+                        <button id="HTMLButton">Copy Codes</button>
+                    </div>
+                    <!-- copy clip -->
+                    <h1>Paragraph Tag</h1>
+                    <p>The<code>&lt;p&gt;</code>tag offers a way to structure your text into different paragraphs. Each
+                        paragraph of text should go in between an opening <code>&lt;p&gt;</code> and a closing
+                        <code>&lt;/p&gt;</code> tag as shown below in the example −
+                    </p>
+                    <h1>Example</h1>
+                    <!-- copy clip -->
+                    <div class="text-boxes">
+                        <div class="text-box HTMLBox">
+                            <div class="topic">HTML Code:</div>
+                            <textarea id="HTMLBox" readonly>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Heading Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;This is heading 1&lt;/h1&gt;
+&lt;h2&gt;This is heading 2&lt;/h2&gt;
+&lt;h3&gt;This is heading 3&lt;/h3&gt;
+&lt;h4&gt;This is heading 4&lt;/h4&gt;
+&lt;h5&gt;This is heading 5&lt;/h5&gt;
+&lt;h6&gt;This is heading 6&lt;/h6&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                        </textarea>
+                            <button id="HTMLButton">Copy Codes</button>
+                        </div>
+                        <!-- copy -->
+                        <h1>Line Break Tag</h1>
+                        <p>Whenever you use the <code>&lt;br/&gt;</code> element, anything following it starts from the
+                            next line. This tag is an example of an empty element, where you do not need opening and
+                            closing tags, as there is nothing to go in between them.</p>
+                        <p>The<code>&lt;br/&gt;</code>tag has a space between the characters br and the forward slash.
+                            If you omit this space, older browsers will have trouble rendering the line break, while if
+                            you miss the forward slash character and just use<code>&lt;br&gt;</code>it is not valid in
+                            XHTML.</p>
+
+                        <h1>Example</h1>
+                        <!-- copy clip -->
+                        <div class="text-boxes">
+                            <div class="text-box HTMLBox">
+                                <div class="topic">HTML Code:</div>
+                                <textarea id="HTMLBox" readonly>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Paragraph Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;Here is a first paragraph of text.&lt;/p&gt;
+&lt;p&gt;Here is a second paragraph of text.&lt;/p&gt;
+&lt;p&gt;Here is a third paragraph of text.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                                </textarea>
+                                <button id="HTMLButton">Copy Codes</button>
+                            </div>
+                            <!-- copy -->
+                            <h1>Centering the Content</h1>
+                            <p>You can use <code>&lt;center&gt;</code> tag to put any content in the center of the page
+                                or any table cell.</p>
+                            <h1>Example</h1>
+                            <section>
+                                <!-- copy clip -->
+                                <div class="text-boxes">
+                                    <div class="text-box HTMLBox">
+                                        <div class="topic">HTML Code:</div>
+                                        <textarea id="HTMLBox" readonly>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Centering Content Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;This text is not in the center.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;This text is in the center.&lt;/p&gt;
+&lt;/center&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                                        </textarea>
+                                        <button id="HTMLButton">Copy Codes</button>
+                                    </div>
+                                    <!-- copy -->
+                                    <p>The above program arranges the text "This text is in the center" in the center of the
+                                        screen.</p>
+                                    <h1>Horizontal Lines</h1>
+                                    <p>Horizontal lines are used to visually break-up sections of a document. The
+                                        <hr> tag creates a line from the current position in the document to the right margin
+                                        and breaks the line accordingly.
+                                    </p>
+                                    <h1>Example</h1>
+                                    <p>Following example draws a horizontal line between two paragraphs −</p>
+                                    <section>
+                                        <!-- copy clip -->
+                                        <div class="text-boxes">
+                                            <div class="text-box HTMLBox">
+                                                <div class="topic">HTML Code:</div>
+                                                <textarea id="HTMLBox" readonly>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Horizontal Line Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;This is paragraph one and should be on top&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;This is paragraph two and should be at bottom&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                                                </textarea>
+                                                <button id="HTMLButton">Copy Codes</button>
+                                            </div>
+                                            </section>
+                                        </main>
+                                    
+                                        <!-------advertisement-------->
+                                        <aside class="container_advertisement">
+                                            Advertisement
+                                        </aside>
+                                    </div>
+                                </body>
+                                </html>
